@@ -1,4 +1,4 @@
-// Обработка формы обратной связи
+// РћР±СЂР°Р±РѕС‚РєР° С„РѕСЂРјС‹ РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё
 document.addEventListener('DOMContentLoaded', function () {
     const contactForm = document.getElementById('contactForm');
 
@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', function () {
             const email = document.getElementById('email').value;
             const message = document.getElementById('message').value;
 
-            // Проверка заполнения полей
+            // РџСЂРѕРІРµСЂРєР° Р·Р°РїРѕР»РЅРµРЅРёСЏ РїРѕР»РµР№
             if (name && email && message) {
-                alert('Спасибо за ваше сообщение, ' + name + '!\n\nМы свяжемся с вами по адресу: ' + email);
+                alert('РЎРїР°СЃРёР±Рѕ Р·Р° РІР°С€Рµ СЃРѕРѕР±С‰РµРЅРёРµ, ' + name + '!\n\nРњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ РІР°РјРё РїРѕ Р°РґСЂРµСЃСѓ: ' + email);
 
-                // Очистка формы после отправки
+                // РћС‡РёСЃС‚РєР° С„РѕСЂРјС‹ РїРѕСЃР»Рµ РѕС‚РїСЂР°РІРєРё
                 contactForm.reset();
             } else {
-                alert('Пожалуйста, заполните все обязательные поля!');
+                alert('РџРѕР¶Р°Р»СѓР№СЃС‚Р°, Р·Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ РїРѕР»СЏ!');
             }
         });
     }
