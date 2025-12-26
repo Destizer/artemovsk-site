@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь - Артёмовск</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О разработчике</a></li>
+            <li><a href="history.html">История города</a></li>
+            <li><a href="infrastructure.html">Инфраструктура</a></li>
+            <li><a href="culture.html">Культура</a></li>
+            <li><a href="contact.html" class="active">Обратная связь</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="page">
+            <h1>Обратная связь</h1>
+
+            <p>Если у вас есть вопросы, предложения или комментарии о сайте, пожалуйста, заполните форму ниже. Мы обязательно свяжемся с вами!</p>
+
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя: <span style="color: red;">*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email: <span style="color: red;">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="example@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Сообщение: <span style="color: red;">*</span></label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Напишите ваше сообщение здесь..."></textarea>
+                    </div>
+
+                    <button type="submit">Отправить сообщение</button>
+                </form>
+            </div>
+
+            <div class="info-card" style="margin-top: 3rem;">
+                <h3>Контактная информация</h3>
+                <p><strong>Разработчик:</strong> Студент факультета компьютерных наук</p>
+                <p><strong>Проект:</strong> Лабораторная работа №1 - Web-программирование</p>
+                <p><strong>Тема:</strong> Изучение HTML-тегов и CSS-стилей</p>
+                <p><strong>Город:</strong> Артёмовск, Донецкая область</p>
+            </div>
+
+            <div class="news-item" style="margin-top: 2rem;">
+                <h3>Дополнительная информация</h3>
+                <p>Этот сайт создан в образовательных целях для изучения основ веб-разработки. Все материалы на сайте носят информационный характер.</p>
+                <p>Сайт демонстрирует применение современных технологий HTML5 и CSS3, включая семантическую разметку, адаптивный дизайн и валидацию форм.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Артёмовск - История и Культура. Лабораторная работа №1</p>
+        <p>Разработано для курса Web-программирование</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
